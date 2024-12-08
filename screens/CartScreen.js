@@ -51,7 +51,7 @@ export default function CartScreen() {
 
   return (
     <View style={{ flex: 1 }}>
-      <Button title="Clear Cart" onPress={handleClearCart} />
+      <Button title="Очистить корзину" onPress={handleClearCart} />
       <FlatList
         data={cartItems}
         keyExtractor={(item) => item.id.toString()}

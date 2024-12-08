@@ -53,7 +53,7 @@ export default function ProductsScreen() {
           <Image source={{ uri: item.image }} style={styles.image} />
           <Text style={styles.title}>{item.title}</Text>
           <Text style={styles.price}>${item.price}</Text>
-          <Button title="Add to Cart" onPress={() => handleAddToCart(item)} />
+          <Button title="Добавить в корзину" onPress={() => handleAddToCart(item)} />
         </View>
       )}
     />
